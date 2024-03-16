@@ -1,0 +1,86 @@
+.container__Login {
+    width: 40%;
+    min-width: 450px;
+    height: fit-content;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
+.container__Login img {
+    width: 120px;
+    margin-bottom: 20px;
+
+}
+.container_Form{
+    border: 1px solid lightgray;
+    width: 55%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.container__Sign{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+.container__Input{
+    width: 100%;
+    padding: 10px;
+
+}
+.container__Info{
+    font-size: 14px;
+    font-weight: 600;
+}
+.info_Type{
+    width: 95%;
+    height: 33px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 5px;
+    
+}
+.info_Type:hover{
+    border: 1px solid orange;
+}
+
+.button__Createaccount{
+    width: 65%;
+    height: 35px;
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+.button__Createaccount:hover{
+    background-color: #dfdfdf;
+    border: 1px solid gray;
+}
+.form__Text{
+    font-size: 12px;
+    width: 100%;
+    word-wrap: normal;
+    word-break: normal;
+    margin-top: 20px;
+}
+.form__Text1{
+    color: #426bc0;
+}
+.button__Login{
+    width: 55%;
+    height: 35px;
+    background-color: #f3b414;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
